@@ -1,8 +1,13 @@
 public class SmartTv {
-    
+    /** <h1>Exemplo</h1>
+ * @author Eric
+ */ 
+
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
+
+
 
     public void mudarCanal(int novoCanal) {
         canal = novoCanal;
